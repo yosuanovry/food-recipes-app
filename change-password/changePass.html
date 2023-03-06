@@ -99,12 +99,34 @@
                 <input type="password" class="form-control" id="" aria-describedby="emailHelp" placeholder="***********" />
               </div>
               <div class="mt-5">
-                <button class="btn btn-warning text-white shadow-none p-4 w-100 mt-3" data-bs-toggle="modal" data-bs-target="#modal1">Update Profile</button>
+                <button class="btn btn-warning text-white shadow-none p-4 w-100 mt-3">Update Profile</button>
               </div>
               <div class="d-inline-flex mt-3 p-1">
-                <p class="text-center">Back to edit profile?<a class="text-warning" style="text-decoration: none" href="forgotpassword.html"> Click Here</a></p>
+                <p class="text-center">Back to edit profile?<a class="text-warning" style="text-decoration: none" href="detailProfile.html"> Click Here</a></p>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="margin: -136px 20px 20px 0px;">
+      <div class="col d-flex justify-content-center">
+        <button type="button" class="btn btn-warning text-white shadow-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" style="padding: 22px 82px;background-color: transparent;">
+          Update Profile
+        </button>
+      </div>
+    </div>
+
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog" style="min-height: 200px;">
+        <div class="modal-content">
+          <div class="modal-body d-flex flex-column">
+            <p class="d-flex justify-content-center mt-5" style="color: #EFC81A; font-size:28px;font-weight: 600;line-height: 70px;">Password has been updated</p>
+            <p class="d-flex justify-content-center" style="color:#8692A6; font-size:16px; font-weight: bold;line-height: 70px;">Please login again</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <a href="../auth/login.html" class="btn btn-warning  text-white shadow-none" style="padding: 16px 145px;margin:-7px 20px 52px 20px">Ok</a>
           </div>
         </div>
       </div>
