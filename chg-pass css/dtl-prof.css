@@ -1,0 +1,76 @@
+body,
+html {
+height: 100%;
+margin: 0;
+}
+
+.nav-link {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+
+text-align: center;
+text-decoration-line: underline;
+
+color: #2E266F;
+}
+
+div {
+font-family: "Poppins";
+}
+
+.h-1 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+.h-2 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+}
+
+.h-2:hover{
+text-shadow: 4px 3px 12px rgba(0,0,0,0.10);
+}
+
+.img {
+  width: 64px;
+}
+
+.change-profile {
+text-decoration: none;
+color: #2E266F;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}
+
+.form-label {
+font-weight: 900;
+}
+
+.form-control {
+/* background: #ffffff;
+border: 1px solid #efc81a;
+box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+border-radius: 6px; */
+padding: 20px 20px;
+}
+
+.form-control:hover {
+background: #ffffff;
+border: 1px solid #efc81a;
+box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+border-radius: 6px;
+padding: 20px 20px;
+}
